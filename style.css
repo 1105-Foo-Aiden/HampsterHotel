@@ -1,3 +1,9 @@
+a
+{
+  text-decoration: none;
+  color: white;
+}
+
 .headerimg {
   background-image: url(./assets/header.jpg);
   display: flex;
@@ -37,7 +43,6 @@
 .text:hover {
   border: white solid 2px;
 }
-
 .headerCenterBox {
   background-color: #000324;
   color: white;
@@ -59,7 +64,6 @@
   text-align: center;
 }
 .hamsterHome {
-  margin-left: 8%;
   width: 80%;
 }
 .hamsterHomeImg {
@@ -74,86 +78,83 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-.roomsTitleText {
-  text-align: center;
-  color: white;
-  font: normal;
-  font-family: dosis;
-}
 .weddingCrop {
-  display: flex;
-  justify-content: right;
-  height: 234px;
-  width: 561px;
-  overflow: hidden;
+  background-image: url(./assets/hamsterwedding.jpg);
   background-size: cover;
+  scale: (0.95);
+  background-position: 50% 50%;
+  overflow: hidden;
+  margin-left: 6%;
+  margin-right: 6%;
 }
-.weddingCropRight {
-  display: flex;
-  justify-content: right;
-  height: 234;
-  width: 561;
+.fullBloomCrop {
+  background-image: url(./assets/hamsterspring.jpg);
+  background-size: cover;
+  scale: (0.95);
+  background-position: 50% 50%;
   overflow: hidden;
 }
-
+.seedCrop {
+  background-image: url(./assets/hamstercheese.jpg);
+  background-size: cover;
+  scale: (0.95);
+  background-position: 50% 50%;
+  margin-left: 6%;
+  margin-right: 6%;
+}
 .amenitiesBG {
   background-image: url(./assets/bg.jpg);
-  height: 738px;
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 538px;
   display: flex;
   justify-content: center;
-  background-size: cover;
   background-repeat: no-repeat;
 }
-
 .centerMe {
   display: flex;
   justify-content: center;
   text-align: center;
-  font: normal;
-  font-family: dosis;
 }
-
 .sourceSans3 {
-  font: normal;
-  font-family: Source Sans 3;
+  font-size: 16px;
+  font-family: 'Source Sans 3', sans-serif;
 }
 .dosis {
-  font: normal;
   font-family: dosis;
 }
-.amenities
-{
-  display: flex;
-  justify-content: space-between;
-}
-.reserve
-{
+.reserve {
   background-color: #000324;
   top: 207px;
   left: 573px;
-  width: 1137px;
+  width: 76.8%;
+  
   display: flex;
   justify-content: center;
   color: white;
-  height: 116px;
+  height: fit-content;
   font: normal;
 }
-.footer{
+.footer {
   background-color: #000324;
   height: 300px;
   width: 100%;
 }
-.footerimg
-{
+.footerimg {
   background-image: url(./assets/hamsterreserve.jpg);
-  display: flex;
-  justify-content: center;
-  text-align: center;
   position: relative;
   background-size: cover;
-  background-position: 50% 56%;
-  background-repeat: no-repeat;
-  width: 1137px;
+  background-position: 50% 50%;
+  width: 76.8%;
   height: 414px;
-  left: 172px;
+  overflow: hidden;
+}
+.rightMe {
+  display: flex;
+  justify-content: right;
+}
+.spaceMe
+{
+  display: flex;
+  justify-content: space-between;
 }
