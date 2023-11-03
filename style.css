@@ -1,9 +1,9 @@
+
 a
 {
   text-decoration: none;
   color: white;
 }
-
 .headerimg {
   background-image: url(./assets/header.jpg);
   display: flex;
@@ -58,7 +58,6 @@ a
   width: 80%;
   height: 57px;
   left: 11%;
-
   font-style: normal;
   font-family: dosis;
   text-align: center;
@@ -72,7 +71,7 @@ a
 }
 .roomsContainer {
   background-image: url(./assets/bg2.jpg);
-  height: 738px;
+  height: max-content;
   display: flex;
   justify-content: center;
   background-size: cover;
@@ -128,7 +127,6 @@ a
   top: 207px;
   left: 573px;
   width: 76.8%;
-  
   display: flex;
   justify-content: center;
   color: white;
@@ -142,12 +140,15 @@ a
 }
 .footerimg {
   background-image: url(./assets/hamsterreserve.jpg);
+  display: flex;
+  justify-content: center;
+  text-align: center;
   position: relative;
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 50% 56%;
+  background-repeat: no-repeat;
   width: 76.8%;
-  height: 414px;
-  overflow: hidden;
+  height: 380px;
 }
 .rightMe {
   display: flex;
