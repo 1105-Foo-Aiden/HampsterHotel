@@ -10,19 +10,16 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Dosis&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Dosis&family=Source+Sans+3:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap" rel="stylesheet">
   </head>
   <body>
     <!-- Header Begining -->
@@ -55,32 +52,46 @@
     </div>
     <br /><br /><br /><br />
     <!-- Header End -->
-<!-- Hamster Home begining -->
+    <!-- Hamster Home begining -->
     <div class="container-fluid hamsterHome">
       <div class="row">
         <div class="container-fluid col-4">
-          <img src="./assets/hamsterhomejpg.jpg" alt=""  class="hamsterHomeImg" style="height: 450px;" />
+          <img
+            src="./assets/hamsterhomejpg.jpg"
+            alt=""
+            class="hamsterHomeImg"
+            style="height: 450px"
+          />
         </div>
-        <div class="containe-fluid col-8">
-          <div class="row hamsterHomeText"><h1>Welcome to a hamster's paradise</h1></div>
+        <div class="container-fluid col-8">
+          <div class="row sourceSans3" style="font: normal; font-family: dosis;">
+            <h1>Welcome to a hamster's paradise</h1>
+          </div>
           <div class="row hamsterHomeText">
             <p>
               Nestled in the heart of Cavia California, La Petite Maison is a
               luxury hotel designed for the small mammal with extravagance in
               mind. Escape to the warm comforts of stunning rooms, a relaxing
-              spa, and a pool with a beach side view.</p>
-              
-              <p>Inspired by the warm
-              beauty of the California Coast, we invite you to enjoy the rich
-              accommodations along with our unmatched luxury. Discover the
-              satisfaction of indulging in our quality rooms, and thank you for
-              choosing La Petite Maison.
-              </p>  
+              spa, and a pool with a beach side view.
+            </p>
+
+            <p>
+              Inspired by the warm beauty of the California Coast, we invite you
+              to enjoy the rich accommodations along with our unmatched luxury.
+              Discover the satisfaction of indulging in our quality rooms, and
+              thank you for choosing La Petite Maison.
+            </p>
           </div>
           <div class="row">
-            <div class="col-4"><img src="./assets/awardfinest.png" alt=""></div>
-            <div class="col-4"><img src="/assets/awardsatisfaction.png" alt=""></div>
-            <div class="col-2"><img src="./assets/awardgenuine.png" alt=""></div>
+            <div class="col-4">
+              <img src="./assets/awardfinest.png" alt="" />
+            </div>
+            <div class="col-4">
+              <img src="./assets/awardsatisfaction.png" alt="" />
+            </div>
+            <div class="col-2">
+              <img src="./assets/awardgenuine.png" alt="" />
+            </div>
           </div>
         </div>
       </div>
@@ -88,40 +99,205 @@
     <!-- Hamster Home End -->
 
     <!-- Rooms Begining -->
-    <br><br><br><br>
-    <div class="container-fluid roomsTitleText roomsContainer">
-        <div><h1>Our Rooms</h1></div>
+    <br /><br /><br /><br />
+    <div class="container-fluid roomsContainer" style="height: 700px; padding: top 10px;">
       <div class="row">
-        <div class="col">
-          <div class="card" style="width: 18rem;">
-          <img src="./assets/room1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="col centerMe roomsTitleText" style="height: 95px; padding-top: 25px">
+          <h1>Our Rooms</h1>
+        </div>
+        <div class="row" style=" margin-bottom: 90px;">
+          <div class="col">
+            <div class="card rounded-0" style="width: 18rem; height: 550px/700px">
+              <img src="./assets/room1.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="roomsTitleText" style="color: black; text-align: left; font-size: 25px;">Queen Room</p>
+                <h5 class="card-title">850 SQ FT room with city view</h5>
+                <p class="card-text sourceSans3">
+                  <ul>
+                    <li>One queen size bed</li>
+                    <li>Seed Bar, fireplace and large balcony</li>
+                    <li>Small kitchen with a refrigerator and stove</li>
+                  </ul>
+                </p>
+                <a href="#" class="btn btn-primary rounded-0">Reseve</a>
+              </div>
+            </div>
           </div>
-        </div></div>
-        <div class="col">
-          <div class="card" style="width: 18rem;">
-          <img src="./assets/room3.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+          <div class="col">
+            <div class="card rounded-0" style="width: 18rem; height: 550px/700px">
+              <img src="./assets/room3.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="roomsTitleText" style="color: black; text-align: left; font-size: 25px;">King Room</p>
+                <h5 class="card-title">950 SQ FT room with beach view</h5>
+                <p class="card-text sourceSans3">
+                  <ul>
+                    <li>One king size bed</li>
+                    <li>Seed Bar, fireplace and large balcony</li>
+                    <li>Small kitchen with a refrigerator and stove</li>
+                  </ul>
+                </p>
+                <a href="#" class="btn btn-primary rounded-0">Reserve</a>
+              </div>
+            </div>
           </div>
-        </div></div>
-        <div class="col">
-          <div class="card" style="width: 18rem;">
-          <img src="./assets/room2.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+          <div class="col">
+            <div class="card rounded-0" style="width: 18rem; height: 550px/700px">
+              <img src="./assets/room2.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="roomsTitleText" style="color: black; text-align: left; font-size: 25px;">Beach Side Suite</p>
+                <h5 class="card-title">1500 SQ FT Suite with beach view</h5>
+                <p class="card-text sourceSans3">
+                  <ul>
+                    <li>One California king size bed</li>
+                    <li>Second room with a fireplace, hot tub, and balcony </li>
+                    <li>Seed Bar and ccoffee station</li>
+                    <li>Full kitchen with refrigerator, stove, and island</li>
+                  </ul>
+                </p>
+                <a href="#" class="btn btn-primary rounded-0">Reserve</a>
+              </div>
+            </div>
           </div>
-        </div></div>
+        </div>
       </div>
     </div>
+    <!-- Rooms end -->
 
+    <!-- Packages Start -->
+    <div class="centerMe"><h1>Packages</h1></div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <img  src="./assets/hamsterwedding.jpg" alt="" 
+          class="weddingCrop" 
+          >
+        </div>
+        <div class="col">
+          <h2 class="dosis">Beach Wedding Package</h2>
+          <br>
+          <p class="sourceSans3" style="color: blue;">Starting US  $1,500.00</p>
+         
+          <p class="sourceSans3">Feel the warmth of the beach as the flames in your 
+            hearts ignite during our romantic beach side wedding. All wedding packages include catering, 
+            an open bar, and one tier wedding cake (9" Vanilla standard cake). 
+            A private dinner for your closets family members and friends will be provided after the ceremony.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h2 class="dosis">Full Bloom Package</h2>
+          <br>
+          <p class="sourceSans3" style="color: blue;">Starting US $1,000.00</p>
+          <p class="sourceSans3">
+            Enjoy the shade of our cherry trees as you join us during our spring time celebration.
+             We invite you to our orchards for cherry, strawberry, and apple picking that is open all day. 
+             We end each evening with fresh, vegetable centric dinners along with a live show from local musicians.
+            </p>
+        </div>
+        <div class="col"> 
+          <img src="./assets/hamsterspring.jpg" alt=""
+          class="weddingCrop"
+          >
+        </div>
+      </div>
+      <div class="row">
+        <div class="col"><img class="weddingCrop" src="./assets/hamstercheese.jpg" alt=""></div>
+        <div class="col ">
+          <h2 class="dosis">Cheese and Seed Tour Package</h2>
+          <br>
+          <p class="sourceSans3" style="color: blue;">Starting US $1,000.00</p>
+          <p class="sourceSans3">Immerse yourself in the flavors of Cavia with our Cheese and Seed tour. 
+            We consulted with connoisseurs from around the globe to bring you the best flavors that nature
+             has to offer, and create our cheeses right here at our local creamery. 
+             Cheese and seeds are served all day and nightly spa treatment is provided after dinner.
+            </p>
+        </div>
+      </div>
+    </div>
+    <!-- Packages end -->
+    <!-- Amenities Start -->
+    <div class="container-fluid amenitiesBG">
+      <div class="row" style="height: 90px;">
+        <div class="col centerMe" style="height: 95px; padding-top: 25px">
+          <h1 class="dosis" style="color: white;">Amenities</h1>
+        </div>
+      <div class="row">
+        <div class="col">
+        <p class="sourceSans3 centerMe" style="color: white;">Here at La Petite Maison, 
+        we invite you to enjoy our services in hopes that 
+        you have the most relaxing stay we can provide.
+        </p>
+        </div>
+      </div>
+       <div class="row">
+          <div class="col .d-block amenities"><img src="./assets/24hour.png"></div>
+          <div class="col amenities"><img src="./assets/breakfast.png"></div>
+          <div class="col amenities"><img src="./assets/valet.png" style="height: 115px; width: 100px;"></div>
+          <div class="col amenities"><img src="./assets/pool.png"></div>
+        </div>
+        <div class="row sourceSans3" style="color: white;">
+          <div class="col"> 24 Hour Room Servce</div>
+          <div class="col"> Complimentary Breakfast</div>
+          <div class="col">Valet Parking</div>
+          <div class="col">Beachside Pool</div>
+        </div>
+        </div>
+    </div>
+    <!--Amenities end  -->
+    <!-- Reserve a room start -->
+    <div class="container-fluid reserve">
+      <div class="row">
+        <div class="col dosis centerMe">
+          <h1>Reserve a Room</h1>
+      </div>
+      <div class="row sourceSans3" style="padding-left: 10%;">
+        <div class="col">Check in </div>
+        <div class="col">Check out</div>
+        <div class="col">Number of guests</div>
+        <div class="col"> Room Type</div>
+        <div class="col"></div>
+      </div>
+      <div class="row" style="padding-left: 10%;">
+        <div class="col"><input type="text" name="checkIn" id="checkIn"></div>
+        <div class="col"><input type="text" name="checkOut" id="checkOut"></div>
+        <div class="col"><input type="text" name="guests" id="guests"></div>
+        <div class="col"><input type="text" name="roomType" id="roomType"></div>
+        <div class="col"><button type="button" class="btn btn-primary btn-lg rounded-0 sourceSans3" style="font-size: 12px;">Check Availability</button></div>
+      </div>
+    </div>
+    </div>
+    <div class="footerimg">
+
+    </div>
+    <!-- Reserve a room end -->
+<br><br>
+    <!-- Footer Start -->
+    <div class="container-fluid footer">
+      <div class="row centerMe">
+        <div class="row">
+          <div class="col">
+            <br>
+            <img
+            src="./assets/Logo.png"
+            alt=""
+            style="margin-top: 10px; margin-right: 10px; padding-right: 10px"
+          />
+          </div>
+        </div>
+        <div class="row centerMe" style="color: white;">
+          <div class="col sourceSans3">
+            <br>
+            123 Sunflower Seed Rd., Cavia, California 95205
+          </div>
+        </div>
+        <div class="row centerMe" style="color: white;">
+          <div class="col sourceSans3">
+            <br>
+            ©LA PETITE MAISON HOTELS LIMITED 1939-2018. ALL RIGHTS RESERVED.
+          </div>
+        </div>
+      </div>
+    </div>     
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
